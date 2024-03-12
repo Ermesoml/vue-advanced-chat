@@ -6331,6 +6331,24 @@ exports.features = {};
 
 /***/ }),
 
+/***/ "4485":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("d542");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add CSS to Shadow Root
+var add = __webpack_require__("35d6").default
+module.exports.__inject__ = function (shadowRoot) {
+  add("2e4950c4", content, shadowRoot)
+};
+
+/***/ }),
+
 /***/ "44ad":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8315,11 +8333,27 @@ function normalizeComponent(
   }
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
 =======
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
+=======
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+<<<<<<< Updated upstream
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
+=======
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -8449,11 +8483,27 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 // CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
 =======
 // CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
+=======
+// CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+<<<<<<< Updated upstream
+// CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=32846052&shadow
+=======
+// CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&shadow
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__("14d9");
@@ -8524,13 +8574,29 @@ function _objectSpread2(target) {
   }
   return target;
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=e9cbf0d4&
 var RoomsListvue_type_template_id_e9cbf0d4_render = function render() {
 =======
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=fa8f86d2&
 var RoomsListvue_type_template_id_fa8f86d2_render = function render() {
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -8651,7 +8717,15 @@ var RoomsListvue_type_template_id_fa8f86d2_render = function render() {
     })], null, true)
   })], 1) : _vm._e()])], 2) : _vm._e()], 2);
 };
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 var RoomsListvue_type_template_id_e9cbf0d4_staticRenderFns = [];
 
 // CONCATENATED MODULE: ./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=e9cbf0d4&
@@ -8659,7 +8733,15 @@ var RoomsListvue_type_template_id_e9cbf0d4_staticRenderFns = [];
 var RoomsListvue_type_template_id_fa8f86d2_staticRenderFns = [];
 
 // CONCATENATED MODULE: ./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=fa8f86d2&
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Loader/Loader.vue?vue&type=template&id=2c0ab9be&
 var Loadervue_type_template_id_2c0ab9be_render = function render() {
@@ -8978,8 +9060,8 @@ var RoomsSearch_component = normalizeComponent(
 )
 
 /* harmony default export */ var RoomsSearch = (RoomsSearch_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=template&id=3576806e&scoped=true&
-var RoomContentvue_type_template_id_3576806e_scoped_true_render = function render() {
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=template&id=797fa0eb&scoped=true&
+var RoomContentvue_type_template_id_797fa0eb_scoped_true_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -9103,16 +9185,20 @@ var RoomContentvue_type_template_id_3576806e_scoped_true_render = function rende
     }, _vm._l(_vm.room.tags, function (tag) {
       return _c('span', {
         key: tag.name,
-        staticClass: "chip primary no-padding"
+        staticClass: "chip primary",
+        staticStyle: {
+          "display": "block",
+          "padding": "0 !important"
+        }
       }, [_vm._v(" " + _vm._s(tag.content) + " ")]);
     }), 0)])];
   }, null, {
     room: _vm.room
   })], 2);
 };
-var RoomContentvue_type_template_id_3576806e_scoped_true_staticRenderFns = [];
+var RoomContentvue_type_template_id_797fa0eb_scoped_true_staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=template&id=3576806e&scoped=true&
+// CONCATENATED MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=template&id=797fa0eb&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/v-click-outside/dist/v-click-outside.umd.js
 var v_click_outside_umd = __webpack_require__("c28b");
@@ -9699,8 +9785,8 @@ var _require = __webpack_require__("bd43"),
 });
 // CONCATENATED MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=script&lang=js&
  /* harmony default export */ var RoomContent_RoomContentvue_type_script_lang_js_ = (RoomContentvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=style&index=0&id=3576806e&prod&scoped=true&lang=css&
-var RoomContentvue_type_style_index_0_id_3576806e_prod_scoped_true_lang_css_ = __webpack_require__("b61a");
+// EXTERNAL MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue?vue&type=style&index=0&id=797fa0eb&prod&scoped=true&lang=css&
+var RoomContentvue_type_style_index_0_id_797fa0eb_prod_scoped_true_lang_css_ = __webpack_require__("bc6b");
 
 // CONCATENATED MODULE: ./src/lib/RoomsList/RoomContent/RoomContent.vue
 
@@ -9713,11 +9799,11 @@ var RoomContentvue_type_style_index_0_id_3576806e_prod_scoped_true_lang_css_ = _
 
 var RoomContent_component = normalizeComponent(
   RoomContent_RoomContentvue_type_script_lang_js_,
-  RoomContentvue_type_template_id_3576806e_scoped_true_render,
-  RoomContentvue_type_template_id_3576806e_scoped_true_staticRenderFns,
+  RoomContentvue_type_template_id_797fa0eb_scoped_true_render,
+  RoomContentvue_type_template_id_797fa0eb_scoped_true_staticRenderFns,
   false,
   null,
-  "3576806e",
+  "797fa0eb",
   null
   
 )
@@ -9877,7 +9963,15 @@ function formatString(string) {
       }
     },
     searchRoom: function searchRoom(ev) {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
       this.filteredRooms = filter_items(this.rooms, 'roomName', ev.target.value);
 =======
       if (this.customSearchRoomEnabled) {
@@ -9885,7 +9979,15 @@ function formatString(string) {
       } else {
         this.filteredRooms = filterMultipleItems(this.rooms, ['roomName', 'roomId'], ev.target.value);
       }
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
     },
     openRoom: function openRoom(room) {
       if (room.roomId === this.room.roomId && !this.isMobile) return;
@@ -9918,13 +10020,29 @@ function formatString(string) {
 
 var RoomsList_component = normalizeComponent(
   RoomsList_RoomsListvue_type_script_lang_js_,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
   RoomsListvue_type_template_id_e9cbf0d4_render,
   RoomsListvue_type_template_id_e9cbf0d4_staticRenderFns,
 =======
   RoomsListvue_type_template_id_fa8f86d2_render,
   RoomsListvue_type_template_id_fa8f86d2_staticRenderFns,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
   false,
   null,
   null,
@@ -16306,11 +16424,27 @@ var ChatWindowvue_type_script_lang_js_shadow_require = __webpack_require__("4c1d
 
 function injectStyles (context) {
   
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   var style0 = __webpack_require__("9c08")
 =======
   var style0 = __webpack_require__("8174")
 >>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  var style0 = __webpack_require__("9c08")
+=======
+  var style0 = __webpack_require__("8174")
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
+=======
+<<<<<<< Updated upstream
+  var style0 = __webpack_require__("9c08")
+=======
+  var style0 = __webpack_require__("8174")
+>>>>>>> Stashed changes
+>>>>>>> parent of e2f878b (Revert "Add zoom and pan functionality to the media preview window")
+>>>>>>> 22673ca7e014869f90c7b6553349040cf8dc1345
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -18281,24 +18415,6 @@ exportTypedArrayMethod('toReversed', function toReversed() {
   return arrayToReversed(aTypedArray(this), getTypedArrayConstructor(this));
 });
 
-
-/***/ }),
-
-/***/ "6d41":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("cc31");
-if(content.__esModule) content = content.default;
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add CSS to Shadow Root
-var add = __webpack_require__("35d6").default
-module.exports.__inject__ = function (shadowRoot) {
-  add("2915ddd3", content, shadowRoot)
-};
 
 /***/ }),
 
@@ -23300,17 +23416,6 @@ module.exports = Math.trunc || function trunc(x) {
 
 /***/ }),
 
-/***/ "b61a":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_3576806e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6d41");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_3576806e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_3576806e_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "b622":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24588,6 +24693,17 @@ module.exports = QuantizePVT;
 
 /***/ }),
 
+/***/ "bc6b":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_797fa0eb_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("4485");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_797fa0eb_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RoomContent_vue_vue_type_style_index_0_id_797fa0eb_prod_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "bcbf":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25517,21 +25633,6 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "cc31":
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Nunito&display=swap);"]);
-// Module
-exports.push([module.i, "body[data-v-3576806e]{height:100vh;width:100%;margin:0;background:#d9e0ea;font-family:Source Sans Pro,sans-serif}h3[data-v-3576806e]{text-align:center;margin:2rem auto;color:#2f4058;font-family:Nunito}.row[data-v-3576806e]{margin-bottom:8px}.chip[data-v-3576806e]{padding:8px 10px;border-radius:10px;font-weight:600;font-size:10px;box-shadow:0 2px 5px rgba(0,0,0,.25);cursor:pointer}.chip.primary[data-v-3576806e]{background:#2f4058;color:#f5f5f5}.no-padding[data-v-3576806e]{padding:0}.chip.secondary[data-v-3576806e]{background:#242933;color:#777}.chip.warning[data-v-3576806e]{background:#feb904;color:#f5f5f5}.chip.danger[data-v-3576806e]{background:#da605b;color:#f5f5f5}.chip.info[data-v-3576806e]{background:#5fd6d4;color:#f5f5f5}.chip-avatar[data-v-3576806e]{border-radius:30px;justify-content:center;display:flex;align-items:center}.chip-avatar img[data-v-3576806e]{height:25px;width:25px;border-radius:50px}.chip-avatar label[data-v-3576806e]{margin-left:5px;font-size:12px}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "cdce":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25692,6 +25793,21 @@ module.exports = function (target, TAG, STATIC) {
     defineProperty(target, TO_STRING_TAG, { configurable: true, value: TAG });
   }
 };
+
+
+/***/ }),
+
+/***/ "d542":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Nunito&display=swap);"]);
+// Module
+exports.push([module.i, "body[data-v-797fa0eb]{height:100vh;width:100%;margin:0;background:#d9e0ea;font-family:Source Sans Pro,sans-serif}h3[data-v-797fa0eb]{text-align:center;margin:2rem auto;color:#2f4058;font-family:Nunito}.row[data-v-797fa0eb]{margin-bottom:8px}.chip[data-v-797fa0eb]{padding:8px 10px;border-radius:10px;font-weight:600;font-size:10px;box-shadow:0 2px 5px rgba(0,0,0,.25);cursor:pointer}.chip.primary[data-v-797fa0eb]{background:#2f4058;color:#f5f5f5}.chip.secondary[data-v-797fa0eb]{background:#242933;color:#777}.chip.warning[data-v-797fa0eb]{background:#feb904;color:#f5f5f5}.chip.danger[data-v-797fa0eb]{background:#da605b;color:#f5f5f5}.chip.info[data-v-797fa0eb]{background:#5fd6d4;color:#f5f5f5}.chip-avatar[data-v-797fa0eb]{border-radius:30px;justify-content:center;display:flex;align-items:center}.chip-avatar img[data-v-797fa0eb]{height:25px;width:25px;border-radius:50px}.chip-avatar label[data-v-797fa0eb]{margin-left:5px;font-size:12px}", ""]);
+// Exports
+module.exports = exports;
 
 
 /***/ }),
