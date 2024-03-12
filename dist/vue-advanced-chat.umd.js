@@ -26037,7 +26037,11 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
+<<<<<<< HEAD
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=32846052&
+=======
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -26164,7 +26168,11 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
+<<<<<<< HEAD
 // CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=32846052&
+=======
+// CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=template&id=a276f0f6&
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
 var es_array_push = __webpack_require__("14d9");
@@ -26235,8 +26243,13 @@ function _objectSpread2(target) {
   }
   return target;
 }
+<<<<<<< HEAD
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=e9cbf0d4&
 var RoomsListvue_type_template_id_e9cbf0d4_render = function render() {
+=======
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=fa8f86d2&
+var RoomsListvue_type_template_id_fa8f86d2_render = function render() {
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
@@ -26357,9 +26370,15 @@ var RoomsListvue_type_template_id_e9cbf0d4_render = function render() {
     })], null, true)
   })], 1) : _vm._e()])], 2) : _vm._e()], 2);
 };
+<<<<<<< HEAD
 var RoomsListvue_type_template_id_e9cbf0d4_staticRenderFns = [];
 
 // CONCATENATED MODULE: ./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=e9cbf0d4&
+=======
+var RoomsListvue_type_template_id_fa8f86d2_staticRenderFns = [];
+
+// CONCATENATED MODULE: ./src/lib/RoomsList/RoomsList.vue?vue&type=template&id=fa8f86d2&
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"84e4ed10-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Loader/Loader.vue?vue&type=template&id=2c0ab9be&
 var Loadervue_type_template_id_2c0ab9be_render = function render() {
@@ -27679,7 +27698,15 @@ function formatString(string) {
       }
     },
     searchRoom: function searchRoom(ev) {
+<<<<<<< HEAD
       this.filteredRooms = filter_items(this.rooms, 'roomName', ev.target.value);
+=======
+      if (this.customSearchRoomEnabled) {
+        this.$emit('search-room', ev.target.value);
+      } else {
+        this.filteredRooms = filterMultipleItems(this.rooms, ['roomName', 'roomId'], ev.target.value);
+      }
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
     },
     openRoom: function openRoom(room) {
       if (room.roomId === this.room.roomId && !this.isMobile) return;
@@ -27712,8 +27739,13 @@ function formatString(string) {
 
 var RoomsList_component = normalizeComponent(
   RoomsList_RoomsListvue_type_script_lang_js_,
+<<<<<<< HEAD
   RoomsListvue_type_template_id_e9cbf0d4_render,
   RoomsListvue_type_template_id_e9cbf0d4_staticRenderFns,
+=======
+  RoomsListvue_type_template_id_fa8f86d2_render,
+  RoomsListvue_type_template_id_fa8f86d2_staticRenderFns,
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
   false,
   null,
   null,
@@ -33994,8 +34026,13 @@ var ChatWindowvue_type_script_lang_js_require = __webpack_require__("4c1d"),
 });
 // CONCATENATED MODULE: ./src/lib/ChatWindow.vue?vue&type=script&lang=js&
  /* harmony default export */ var lib_ChatWindowvue_type_script_lang_js_ = (ChatWindowvue_type_script_lang_js_); 
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./src/lib/ChatWindow.vue?vue&type=style&index=0&id=32846052&prod&lang=scss&
 var ChatWindowvue_type_style_index_0_id_32846052_prod_lang_scss_ = __webpack_require__("42ca");
+=======
+// EXTERNAL MODULE: ./src/lib/ChatWindow.vue?vue&type=style&index=0&id=a276f0f6&prod&lang=scss&
+var ChatWindowvue_type_style_index_0_id_a276f0f6_prod_lang_scss_ = __webpack_require__("c7e5");
+>>>>>>> e5d21a99b33affdbba842db7a414dc2dc3744d8c
 
 // CONCATENATED MODULE: ./src/lib/ChatWindow.vue
 
